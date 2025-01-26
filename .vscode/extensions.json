@@ -1,0 +1,10 @@
+{
+  "recommendations": [
+    "biomejs.biome",
+    "bierner.markdown-mermaid",
+    "inline.inline-html",
+    "oven.bun-vscode",
+    "streetsidesoftware.code-spell-checker",
+    "yzhang.markdown-all-in-one",
+  ]
+} 
