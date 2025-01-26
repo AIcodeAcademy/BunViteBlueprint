@@ -1,3 +1,15 @@
+# Style with PicoCSS
+
+```bash
+# Install PicoCSS
+bun i @picocss/pico
+# Install fonts
+bun i @fontsource/fira-code
+bun i @fontsource/Major-Mono-Display
+bun i @fontsource/tomorrow
+```
+## Global style
+```css
 @import "@picocss/pico";
 @import "@fontsource/tomorrow";
 @import "@fontsource/major-mono-display";
@@ -16,7 +28,6 @@
 	--ab-dark-green: #063831;
 	--ab-white: #fff;
 }
-
 [data-theme=light],
 :root:not([data-theme=dark]) {
 	--pico-color: var(--ab-dark-green);
@@ -45,3 +56,5 @@ h6 {
 .logo {
 	font-family: var(--pico-font-family-emoji);
 }
+
+```

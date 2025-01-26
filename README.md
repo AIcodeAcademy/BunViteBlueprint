@@ -1,6 +1,6 @@
 # Bun Vite Blueprint
 
-This is a simple Bun Vite Blueprint for a React project.
+This is a simple Bun Vite Blueprint for a vanilla TS project.
 
 ## Getting Started
 
@@ -18,7 +18,7 @@ bun i @picocss/pico
 bun i -D @biomejs/biome
 bun lint
 bun format
-# Install required extensions
+# Install recommended extensions
 # run dev
 bun dev
 ```
