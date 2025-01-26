@@ -4,8 +4,8 @@
 # Install PicoCSS
 bun i @picocss/pico
 # Install fonts
-bun i @fontsource/fira-code
-bun i @fontsource/Major-Mono-Display
+bun i @fontsource/fira-mono
+bun i @fontsource/major-mono-display
 bun i @fontsource/tomorrow
 ```
 ## Global style
@@ -28,14 +28,24 @@ bun i @fontsource/tomorrow
 	--ab-dark-green: #063831;
 	--ab-white: #fff;
 }
+
 [data-theme=light],
 :root:not([data-theme=dark]) {
 	--pico-color: var(--ab-dark-green);
-	--pico-primary: var(--ab-cyan);
+	--pico-primary: var(--ab-green);
+  --pico-secondary: var(--ab-cyan);
 }
 [data-theme=dark]{
-	--pico-color: var(--ab-dark-green);
-	--pico-primary: var(--ab-cyan);
+  --pico-text-selection-color: var(--ab-dark-green);
+  --pico-primary: var(--ab-green);
+  --pico-code-color: var(--ab-blue);
+  --pico-code-background: var(--ab-dark-green);
+  --pico-primary-background: var(--ab-dark-green);
+  --pico-primary-underline: var(--ab-green);
+  --pico-primary-hover: var(--ab-cyan);
+  --pico-primary-hover-background: var(--ab-dark-blue);
+  --pico-primary-focus: var(--ab-green);
+  --pico-primary-inverse: #fff;
 }
 
 body {
@@ -56,5 +66,6 @@ h6 {
 .logo {
 	font-family: var(--pico-font-family-emoji);
 }
+
 
 ```
