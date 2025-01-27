@@ -9,31 +9,32 @@
 	--pico-font-family-sans-serif: Tomorrow, Roboto, Helvetica, Arial, sans-serif;
 	--pico-font-family-monospace: "Fira Mono", Consolas, monospace;
 	--pico-border-radius: 0rem;
-	--ab-green: #47d469;
-	--ab-cyan: #33c1ee;
-	--ab-blue: #0783d8;
-	--ab-dark-blue: #0e4d90;
-	--ab-dark-green: #063831;
+	--ab-lime: #00FF00;
+	--ab-cyan: #00FFFF;
+	--ab-blue: #00BFFF;
+  --ab-green: #32CD32;
+	--ab-dark-blue: #000080;
+	--ab-dark-green: #006400;
 	--ab-white: #fff;
 }
 
 [data-theme=light],
 :root:not([data-theme=dark]) {
-	--pico-color: var(--ab-dark-green);
 	--pico-primary: var(--ab-green);
-  --pico-secondary: var(--ab-cyan);
+  --pico-primary-underline: var(--ab-green);
+  --pico-primary-hover: var(--ab-blue);
+  --pico-primary-background: var(--ab-lime);
+  --pico-primary-hover-background: var(--ab-cyan);
+  --pico-secondary: var(--ab-blue);
+
 }
 [data-theme=dark]{
-  --pico-text-selection-color: var(--ab-dark-green);
-  --pico-primary: var(--ab-green);
-  --pico-code-color: var(--ab-blue);
-  --pico-code-background: var(--ab-dark-green);
-  --pico-primary-background: var(--ab-dark-green);
-  --pico-primary-underline: var(--ab-green);
+  --pico-primary: var(--ab-lime);
+  --pico-primary-underline: var(--ab-lime);
   --pico-primary-hover: var(--ab-cyan);
-  --pico-primary-hover-background: var(--ab-dark-blue);
-  --pico-primary-focus: var(--ab-green);
-  --pico-primary-inverse: #fff;
+  --pico-primary-background: var(--ab-green);
+  --pico-primary-hover-background: var(--ab-blue);
+  --pico-secondary: var(--ab-cyan);
 }
 
 body {
