@@ -4,5 +4,6 @@
 
 ```bash
 bun create playwright@latest
+bun e2e
 ```
 

@@ -1,6 +1,6 @@
-import "./style.css";
-import { Nav } from "./components/Nav";
 import { Footer } from "./components/Footer";
+import { Nav } from "./components/Nav";
+import "./style.css";
 
 // Change the tech stack here with your own content
 const techStack = import.meta.env.VITE_TECH_STACK;
