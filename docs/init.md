@@ -4,13 +4,17 @@
 ## Install bun
 
 ```bash
-curl -fsSL https://bun.sh/install | bash
+npm install -g bun # the last `npm` command you'll ever need
 ```
 
 ## Create project
 
 ```bash
-bun create vite blueprint-bun_vite --template vanilla-ts
+bun create vite BunViteBlueprint --template vanilla-ts
+cd BunViteBlueprint
+git init
+git add .
+git commit -m "chore: init project"
 ```
 
 ## Install dev dependencies

@@ -5,24 +5,11 @@ This is a simple Bun Vite Blueprint for a vanilla TS project.
 ## Getting Started
 
 ```bash
-bun create vite my-app --template vanilla-ts
-# style with picoCSS
-bun i @picocss/pico
-
-```
-
-## Development
-
-```bash
-# lint and format with biome
-bun i -D @biomejs/biome
-bun lint
-bun format
-# Install recommended extensions
-# run dev
+git clone https://github.com/AIcodeAcademy/BunViteBlueprint.git your-project-name
+cd your-project-name
+bun i
 bun dev
 ```
-
 ---
 
 <footer>

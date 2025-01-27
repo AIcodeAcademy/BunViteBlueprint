@@ -47,25 +47,4 @@ bun i @fontsource/tomorrow
   --pico-primary-focus: var(--ab-green);
   --pico-primary-inverse: #fff;
 }
-
-body {
-	font-family: var(--pico-font-family-monospace);
-	padding: 2%;
-
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-	font-family: var(--pico-font-family-sans-serif);
-}
-
-.logo {
-	font-family: var(--pico-font-family-emoji);
-}
-
-
 ```
