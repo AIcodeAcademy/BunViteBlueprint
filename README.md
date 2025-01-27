@@ -2,6 +2,10 @@
 
 This is a simple Bun Vite Blueprint for a vanilla TS project.
 
+It also includes PicoCSS for styling and Playwright for testing.
+
+It also could be used with node.js
+
 ## Getting Started
 
 ```bash
@@ -9,6 +13,7 @@ git clone https://github.com/AIcodeAcademy/BunViteBlueprint.git your-project-nam
 cd your-project-name
 bun i
 bun dev
+bun e2e
 ```
 ---
 

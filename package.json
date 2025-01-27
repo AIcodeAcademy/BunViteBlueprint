@@ -1,6 +1,6 @@
 {
-  "name": "blueprint-bun_vite",
-  "description": "Blueprint Bun Vite Pico CSS",
+  "name": "bun_vite_blueprint",
+  "description": "Blueprint Bun Vite and PicoCSS",
   "author": {
     "name": "Alberto Basalo",
     "url": "https://albertobasalo.dev"
@@ -13,11 +13,10 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
     "e2e": "playwright test",
     "lint": "biome lint --write .",
     "format": "biome format --write .",
-    "preview": "vite preview"
+    "preview": "vite build && vite preview"
   },
   "devDependencies": {
     "@biomejs/biome": "^1.9.4",
